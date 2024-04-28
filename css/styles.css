@@ -1,0 +1,29 @@
+/* gallery */
+
+.gallery {
+  width: 1128px;
+  padding: 24px 156px 24px 156px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+  cursor: pointer #4e75ff;
+}
+
+.gallery-link {
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  animation: animate125 3000ms infinite 1000ms;
+}
+
+.gallery-image:hover {
+  content: 'scale(1.25)';
+}
